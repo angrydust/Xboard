@@ -1,9 +1,9 @@
 version: '3'
 services:
   xboard:
-    # build:
+    # build: 
     #   context: .
-    image: ghcr.io/angrydust/xboard:latest
+    image: ghcr.io/cedar2025/xboard:latest
     volumes:
       - ./:/www/
       # - ./.env:/www/.env
@@ -17,7 +17,7 @@ services:
     # ports:
     #   - 7001:7001
   redis:
-    build:
+    build: 
       context: .docker/services/redis
     restart: always
     volumes:
