@@ -258,6 +258,7 @@ class Shadowrocket
                     "downmbps" => $server['down_mbps'],
                     "protocol" => 'udp',
                     "peer" => $server['server_name'],
+                    "sni" => $server['server_name'],
                     "fastopen" => 1,
                     "alpn" => ServerHysteria::$alpnMap[$server['alpn']]
                 ];
