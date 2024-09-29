@@ -12,7 +12,7 @@ systemctl start docker
 ```
 2. 获取Docker compose 文件
 ```
-git clone -b  docker-compose --depth 1 https://github.com/cedar2025/Xboard
+git clone -b  docker-compose --depth 1 https://github.com/angrydust/Xboard
 cd Xboard
 ```
 3. 执行数据库安装命令
