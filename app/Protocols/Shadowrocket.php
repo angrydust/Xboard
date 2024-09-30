@@ -275,6 +275,7 @@ class Shadowrocket
             case 2:
                 $params = [
                     "peer" => $server['server_name'],
+                    "sni" => $server['server_name'],
                     "obfs" => 'none',
                     "fastopen" => 1
                 ];
