@@ -7,7 +7,7 @@ use App\Utils\Helper;
 
 class V2rayN
 {
-    public $flag = 'v2rayn';
+    public $flag = 'v2rayn,dae';
     private $servers;
     private $user;
 
